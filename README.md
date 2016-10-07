@@ -12,6 +12,7 @@ Luke: https://github.com/DmitryKey/luke
 
 3. An absolutely minimal Solr example framework
 *Erica leading a team to try installing Solr from scratch and note down problems & issues with the examples and guidance*
+Erica and Ife gave a great talk on their experience with Solr at a previous Meetup: http://rockthecode.io/tech-events/leveraging-solr-for-website-searches-and-more/
 
 4. Different replicas giving different result positions
 *Christine leading a team to look at the issues with this*
