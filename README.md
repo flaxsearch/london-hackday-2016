@@ -26,7 +26,9 @@ ant test -Dtestcase=DistributedQueryComponentReplicaMarkerTest
 
 8. *Ife looking at Streaming with Solr*
 
-10. SOLR-8396  Add support for PointFields in Solr
+10. *Jesse* - SOLR-8396  Add support for PointFields in Solr
+
+9. *Diego*: Add BM25F ranking to Lucene
 
 ---parked for now---
 
@@ -43,4 +45,3 @@ https://scan.coverity.com/projects/5620 mentioned on the dev mailing list (http:
 
 7.  Graph searching
 
-9. Diego: BM25F
