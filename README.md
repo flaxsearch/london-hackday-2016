@@ -35,3 +35,5 @@ Get up to speed with streaming, JDBC and SOLR 6.2.
 7.  Graph searching
 
 9. Diego: BM25F
+
+10. Jesse:  SOLR-8396  Add support for PointFields in Solr
