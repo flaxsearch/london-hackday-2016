@@ -18,17 +18,17 @@ Erica and Ife gave a great talk on their experience with Solr at a previous Meet
 *Christine leading a team to look at the issues with this*
 References: https://mail-archives.apache.org/mod_mbox/lucene-solr-user/201301.mbox/%3Czarafa.51006f06.0ea4.1386468330e702d7@mail.openindex.io%3E
 
-Here is our working branch: https://github.com/fguery/lucene-solr/tree/replicaChoice
+  Here is our working branch: https://github.com/fguery/lucene-solr/tree/replicaChoice
 
-Useful command:
-cd solr/core
-ant test -Dtestcase=DistributedQueryComponentReplicaMarkerTest
+  Useful command:
+  cd solr/core
+  ant test -Dtestcase=DistributedQueryComponentReplicaMarkerTest
 
 8. *Ife looking at Streaming with Solr*
 
 10. *Jesse* - SOLR-8396  Add support for PointFields in Solr
 
-9. *Diego*: Add BM25F ranking to Lucene
+9. *Diego*: Add BM25F ranking to Lucene https://github.com/diegoceccarelli/solr6-bm25f
 
 ---parked for now---
 
