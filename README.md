@@ -6,15 +6,18 @@ Ideas for the Hackday:
 ---things we're working on---
 
 1. A Browser-driven explorer for Lucene indexes: “Marple”
+------------------------------------------------------------
 https://github.com/flaxsearch/marple
 Luke: https://github.com/DmitryKey/luke
 *Alan Woodward leading a team to look at developing this*
 
 3. An absolutely minimal Solr example framework
+------------------------------------------------------------
 *Erica leading a team to try installing Solr from scratch and note down problems & issues with the examples and guidance*
 Erica and Ife gave a great talk on their experience with Solr at a previous Meetup: http://rockthecode.io/tech-events/leveraging-solr-for-website-searches-and-more/
 
 4. Different replicas giving different result positions
+------------------------------------------------------------
 *Christine leading a team to look at the issues with this*
 References: https://mail-archives.apache.org/mod_mbox/lucene-solr-user/201301.mbox/%3Czarafa.51006f06.0ea4.1386468330e702d7@mail.openindex.io%3E
 
@@ -25,10 +28,15 @@ References: https://mail-archives.apache.org/mod_mbox/lucene-solr-user/201301.mb
   ant test -Dtestcase=DistributedQueryComponentReplicaMarkerTest
 
 8. *Ife looking at Streaming with Solr*
+------------------------------------------------------------
 
 10. *Jesse* - SOLR-8396  Add support for PointFields in Solr
+------------------------------------------------------------
 
 9. *Diego*: Add BM25F ranking to Lucene https://github.com/diegoceccarelli/solr6-bm25f
+------------------------------------------------------------
+
+
 
 ---parked for now---
 
