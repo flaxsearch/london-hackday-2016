@@ -50,6 +50,7 @@ https://scan.coverity.com/projects/5620 mentioned on the dev mailing list (http:
 
 7.  Graph searching
 
+---------------------
 Thanks to Bloomberg for providing the venue & pizza for lunch and to Alfresco for curry and beers afterwards.
 
 # Boston hackday
