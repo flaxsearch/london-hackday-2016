@@ -1,0 +1,2 @@
+This is what we worked on during the Boston Lucene hackday on 11th October 2016:
+
