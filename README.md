@@ -61,7 +61,7 @@ Thanks to Bloomberg for providing the venue & pizza for lunch and to Alfresco fo
 
 # Boston hackday
 
-This is what we worked on during the Boston Lucene hackday on 11th October 2016:
+This is some of what we worked on during the Boston Lucene hackday on 11th October 2016:
 
 1. Doug Turnbull: BM25F demo with Lucene using BlendedTermQuery and a custom similarity https://github.com/o19s/lucene-bm25f
 2. David Smiley: I worked on a new Solr FieldType dedicated to heatmaps.
@@ -69,8 +69,7 @@ This is what we worked on during the Boston Lucene hackday on 11th October 2016:
 4. Kevin Watters: A fun day of Solr hacking and coming up with some more examples and use cases for the Solr Graph Query!
 5. Steven Bower: Created docker container that builds static/read-only containers with pre-built indexes to allow for hosted/online tutorials
 6. Christine Poerschke: created a patch for adding a HelloWorldSolrCloudTestCase class https://issues.apache.org/jira/browse/SOLR-9625, add QParser.getSortSpec https://issues.apache.org/jira/browse/SOLR-9627, cast exception while searching with sort function and result grouping https://issues.apache.org/jira/browse/SOLR-6203
-
-6. 
+7. Alexandre Rafalovitch: looking at exporting Jira records and generating reports from them that are impossible in Jira itself. Unfortunately, the available export options do not export ALL of the information available (e.g. state transitions), but there is enough to do at least a prototype in a future. Jira also has a more-comprehensive export through XML backup, but I do not have permissions for it. That will need a discussion with INFRA to see if they could do a one-off export to test. We also had a lot of discussion about Solr examples with various people.
 
 
 
