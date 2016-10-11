@@ -66,6 +66,11 @@ This is what we worked on during the Boston Lucene hackday on 11th October 2016:
 1. Doug Turnbull: BM25F demo with Lucene using BlendedTermQuery and a custom similarity https://github.com/o19s/lucene-bm25f
 2. David Smiley: I worked on a new Solr FieldType dedicated to heatmaps.
 3. Timothy Rodriguez: working on updating the UnifiedHighlighter to not re-create a token stream for handling automata when doing Analysis.  This should yield reduced memory consumption and hopefully a performance increase for wildcard queries (although likely not much). https://github.com/Timothy055/lucene-solr/commits/master
+4. Kevin Watters: A fun day of Solr hacking and coming up with some more examples and use cases for the Solr Graph Query!
+5. Steven Bower: Created docker container that builds static/read-only containers with pre-built indexes to allow for hosted/online tutorials
+6. Christine Poerschke: created a patch for adding a HelloWorldSolrCloudTestCase class https://issues.apache.org/jira/browse/SOLR-9625, add QParser.getSortSpec https://issues.apache.org/jira/browse/SOLR-9627, cast exception while searching with sort function and result grouping https://issues.apache.org/jira/browse/SOLR-6203
+
+6. 
 
 
 
