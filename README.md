@@ -15,6 +15,7 @@ Luke: https://github.com/DmitryKey/luke
 ------------------------------------------------------------
 *Erica leading a team to try installing Solr from scratch and note down problems & issues with the examples and guidance*
 Erica and Ife gave a great talk on their experience with Solr at a previous Meetup: http://rockthecode.io/tech-events/leveraging-solr-for-website-searches-and-more/
+Here's what they came up with https://github.com/missBerg/solr-resources
 
 4. Different replicas giving different result positions
 ------------------------------------------------------------
