@@ -5,19 +5,25 @@ Things we worked on at the London Lucene Hackday on 7th October 2016.
 1. A Browser-driven explorer for Lucene indexes: “Marple”
 ------------------------------------------------------------
 https://github.com/flaxsearch/marple
+
 Luke: https://github.com/DmitryKey/luke
+
 *Alan Woodward leading a team to look at developing this*
 
 2. An absolutely minimal Solr example framework
 ------------------------------------------------------------
 *Erica leading a team to try installing Solr from scratch and note down problems & issues with the examples and guidance*
+
 Erica and Ife gave a great talk on their experience with Solr at a previous Meetup: http://rockthecode.io/tech-events/leveraging-solr-for-website-searches-and-more/
-Here's what they came up with https://github.com/missBerg/solr-resources
+
+Here's the minimal configuration files they came up with https://github.com/missBerg/solr-resources
+
 Alexandre Rafalovitch has also been working on minimal configs: https://github.com/arafalov/simplest-solr-config and also has a great resource on starting with Solr: http://www.solr-start.com/
 
 3. Different replicas giving different result positions
 ------------------------------------------------------------
 *Christine leading a team to look at the issues with this*
+
 References: https://mail-archives.apache.org/mod_mbox/lucene-solr-user/201301.mbox/%3Czarafa.51006f06.0ea4.1386468330e702d7@mail.openindex.io%3E
 
   Here is our working branch: https://github.com/fguery/lucene-solr/tree/replicaChoice
