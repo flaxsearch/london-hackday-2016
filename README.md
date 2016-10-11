@@ -35,7 +35,7 @@ References: https://mail-archives.apache.org/mod_mbox/lucene-solr-user/201301.mb
 6. *Diego*: Add BM25F ranking to Lucene https://github.com/diegoceccarelli/solr6-bm25f
 ------------------------------------------------------------
 
----Other things we didn't get time to look at---
+Other things we didn't get time to look at:
 
 7. Andy Hind's ideas:
 I was planning to do some more stuff with min hash. Probably add some support to use it in "more like this". May be look at min hash as part of query/recall expansion during query execution.
