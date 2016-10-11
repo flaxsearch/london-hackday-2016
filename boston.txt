@@ -1,5 +1,7 @@
 This is what we worked on during the Boston Lucene hackday on 11th October 2016:
 
 Doug Turnbull: BM25F demo with Lucene using BlendedTermQuery and a custom similarity https://github.com/o19s/lucene-bm25f
+David Smiley: I worked on a new Solr FieldType dedicated to heatmaps.
+
 
 
