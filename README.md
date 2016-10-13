@@ -70,6 +70,9 @@ This is some of what we worked on during the Boston Lucene hackday on 11th Octob
 5. Steven Bower: Created docker container that builds static/read-only containers with pre-built indexes to allow for hosted/online tutorials
 6. Christine Poerschke: created a patch for adding a HelloWorldSolrCloudTestCase class https://issues.apache.org/jira/browse/SOLR-9625, add QParser.getSortSpec https://issues.apache.org/jira/browse/SOLR-9627, cast exception while searching with sort function and result grouping https://issues.apache.org/jira/browse/SOLR-6203
 7. Alexandre Rafalovitch: looking at exporting Jira records and generating reports from them that are impossible in Jira itself. Unfortunately, the available export options do not export ALL of the information available (e.g. state transitions), but there is enough to do at least a prototype in a future. Jira also has a more-comprehensive export through XML backup, but I do not have permissions for it. That will need a discussion with INFRA to see if they could do a one-off export to test. We also had a lot of discussion about Solr examples with various people.
+8. Keith Laban: Background: When DocValues are enabled on a field that had documents previously indexed values without DocValues it will cause a loss in data. When a DocValuesless segment is merged with a DocValues segment, the new segment will have null DocValues for the DocValueless segment causing missing data in sorting and faceting. Investigated writing a codec to be used when merging to pull the DocValueless document fields from FieldCache and write them as DocValues in the new DocValue segment.
+9. Steve Rowe: added some more DocValues functionality to Marple
+
 
 
 
