@@ -3,15 +3,15 @@
 Things we worked on at the London Lucene Hackday on 7th October 2016.
 
 1. A Browser-driven explorer for Lucene indexes: “Marple”
-------------------------------------------------------------
 https://github.com/flaxsearch/marple
 
 Luke: https://github.com/DmitryKey/luke
 
 *Alan Woodward leading a team to look at developing this*
 
-2. An absolutely minimal Solr example framework
+
 ------------------------------------------------------------
+2. An absolutely minimal Solr example framework
 *Erica leading a team to try installing Solr from scratch and note down problems & issues with the examples and guidance*
 
 Erica and Ife gave a great talk on their experience with Solr at a previous Meetup: http://rockthecode.io/tech-events/leveraging-solr-for-website-searches-and-more/
@@ -20,8 +20,8 @@ Here's the minimal configuration files they came up with https://github.com/miss
 
 Alexandre Rafalovitch has also been working on minimal configs: https://github.com/arafalov/simplest-solr-config and also has a great resource on starting with Solr: http://www.solr-start.com/
 
-3. Different replicas giving different result positions
 ------------------------------------------------------------
+3. Different replicas giving different result positions
 *Christine leading a team to look at the issues with this*
 
 References: https://mail-archives.apache.org/mod_mbox/lucene-solr-user/201301.mbox/%3Czarafa.51006f06.0ea4.1386468330e702d7@mail.openindex.io%3E
@@ -32,17 +32,18 @@ References: https://mail-archives.apache.org/mod_mbox/lucene-solr-user/201301.mb
   cd solr/core
   ant test -Dtestcase=DistributedQueryComponentReplicaMarkerTest
 
+------------------------------------------------------------
 4. *Ife looking at Streaming with Solr*
-------------------------------------------------------------
 
+------------------------------------------------------------
 5. *Jesse* - SOLR-8396  Add support for PointFields in Solr
-------------------------------------------------------------
 
-6. *Diego*: Add BM25F ranking to Lucene https://github.com/diegoceccarelli/solr6-bm25f
 ------------------------------------------------------------
+6. *Diego*: Add BM25F ranking to Lucene https://github.com/diegoceccarelli/solr6-bm25f
 
 Other things we didn't get time to look at:
 
+------------------------------------------------------------
 7. Andy Hind's ideas:
 I was planning to do some more stuff with min hash. Probably add some support to use it in "more like this". May be look at min hash as part of query/recall expansion during query execution.
 Try to get to the bottom of a Japanese Numeric Tokeniser issue that causes intermittent test failures.
